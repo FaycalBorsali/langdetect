@@ -1,6 +1,9 @@
 .idea/
+.vscode/
 *.pyc
 *.aux
 *.log
 *.bbl
 *.blg
+output.json
+tmp_comments.txt
