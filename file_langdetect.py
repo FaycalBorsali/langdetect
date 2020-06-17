@@ -21,6 +21,9 @@ def main():
 
 	jsonResult = json.dumps(allLanguages)
 
+	if not os.path.exists('../outLangDetect'):
+    	os.makedirs('../outLangDetect')
+
 	with open('../outLangDetect/' + output_file, 'w') as outFile:
 		outFile.write(jsonResult)
 	sys.stdout.write(jsonResult)
