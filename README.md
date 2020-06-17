@@ -1,7 +1,7 @@
 # This library is forked as part of my Gaduation Project
 The only changes made are simple :
 
-- [ ] Get rid of the test file !
+- [x] Get rid of the test file !
 
 - [ ] Add a script that is given a text file and yields a JSON file where the keys are languages and the values are arrays of triplets (the comments, the accuracy, the rank of this language for that comment (from `0` to `3`))
 
