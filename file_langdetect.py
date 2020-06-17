@@ -10,7 +10,7 @@ def main():
 	allLanguages = defaultdict(lambda : [])
 
 
-	output_file = sys.argv[2] if len(sys.argv == 3) else (os.path.splitext(os.path.basename(sys.argv[1]))[0] + ".json")
+	output_file = sys.argv[2] if len(sys.argv) == 3 else (os.path.splitext(os.path.basename(sys.argv[1]))[0] + ".json")
 	with open(sys.argv[1], 'r') as commentsFile:
 	  	allComments = commentsFile.readlines()
 
